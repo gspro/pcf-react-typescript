@@ -8,6 +8,8 @@ A PowerApps Component Framework React Typescript starter kit
 
 **Project creation steps**
 
+\*run "pac install latest" first
+
 1. md ProjectName & cd ProjectName
 2. pac pcf init --namespace <> --name <> --template <field or dataset>
 3. npm i & npm run build
@@ -16,8 +18,7 @@ A PowerApps Component Framework React Typescript starter kit
    - npm i react react-dom @fluentui/react
 5. copy tsconfig.json, .eslintrc.js and .prettierrc.js
 6. npx sb init
-7. edit .storybook\main.js
-   - add **@storybook/addon-controls** to addons
+7. copy .storybook\main.js
 
 **Project deploy file creation steps**
 
