@@ -14,11 +14,12 @@ A PowerApps Component Framework React Typescript starter kit
 2. pac pcf init --namespace <> --name <> --template <field or dataset>
 3. npm i & npm run build
 4. install npms
-   - npm i -D eslint prettier typescript eslint-config-airbnb-typescript-prettier
+   - npm i -D eslint prettier typescript eslint-config-airbnb-typescript-prettier @types/jest jest ts-jest
    - npm i react react-dom @fluentui/react
-5. copy tsconfig.json, .eslintrc.js and .prettierrc.js
+5. copy .eslintrc.js and .prettierrc.js, jest.config.js and tsconfig.json
 6. npx sb init
 7. copy .storybook\main.js
+8. copy the scripts section in package.json
 
 **Project deploy file creation steps**
 
